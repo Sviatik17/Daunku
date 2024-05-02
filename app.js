@@ -77,7 +77,7 @@ app.put('/edit-goods/:id',async(req,res)=>{
 app.get('/goods',async(req,res)=>{
     try{
         const goods=await Goods.find();
-        res.json(goods);
+        // res.json(goods);
         res.status(201).json(goods);
     }catch(err){
         res.status(500).json({message:err});

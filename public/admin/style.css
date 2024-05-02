@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work Sans';
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.newGoodsForm{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daunku</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.js' integrity='sha512-pmaEGtUAy7E5gRmwjLqQAD/QWw0dL4Z59b6b+2HQkqQwQ+HcPLLb9/KbUNo5zr10WuXmbivK9nYVZOyDkMgZMg==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' integrity='sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
 </head>
 <body>
     <div class="wrap">
-        <h1>Home page</h1>
+        <div class="homePage">
+            <header>
+                <div class="logoArea">
+                    <img src="./img/logo.png" alt="logo">
+                    Daunku
+                </div>
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Shop</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact</a>
+                </nav>
+                <div class="cartArea">
+                    <img src="./img/Caart.png" alt="cart">
+                    <div class="cartNumber"></div>
+                </div>
+            </header>
+            <main>
+                <h2>Bring Serenity to Your Place <br>
+                    With Interior Plants</h2>
+                <p>find your dream plant for you home decoration <br> with us, and we will make it happen.</p>
+                <div class="searchArea">
+                    <input type="text" placeholder="Search plant" class="searchPlant" >
+                    <button class="searchBtn"><img src="./img/search.png" alt="search"></button>
+                </div>
+            </main>
+            
+           
+        </div>
+        <div class="productPage">
+            <div class="titleProductPage">
+                <h2>Best Seller Product</h2>
+                <p>See all collections<i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="goodsContainer"></div>
+        </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

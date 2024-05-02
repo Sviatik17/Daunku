@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productPage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eee;
+    padding: 50px 150px;
+    color: #081323;
+}
+.productPage h2{
+    margin-bottom: 20px;
+}
+.productPage p{
+    color: #4F4F4F;
+    display: flex;
+    align-items: center;
+}
+.productPage i{
+    margin-left: 10px;
+}
+.goodsContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.goodsCard{
+    width: 250px;
+    background-color: #c1d0e4;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    box-shadow: 0 2px 5px #eee;
+}
+.goodsDetail{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    height: 150px;
+    padding: 30px;
+    font-family: 'Work Sans';
+    justify-content: space-between;
+}
+.goodsDetail p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addToCartBtn{
+    width: 50px;
+    height: 50px;
+    background: rgb(42,245,152);
+    background: linear-gradient(90deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding-right: 10px;
+
+    
+}
+.homePage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/homeBackground.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: #fff;
+
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+main p{
+    margin: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+main h2{
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+.logoArea{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+}
+nav :hover{
+    background: rgb(42,245,152);
+    background: linear-gradient(90deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+.searchPlant{
+    width: 320px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.212);
+    padding: 0 55px 0 10px;
+    color: #fff;
+}
+.searchPlant::placeholder{
+    color: #fff;
+}
+.searchBtn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(42,245,152);
+    background: linear-gradient(90deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+    border: none;
+    position: relative;
+    right: 50px;
+
+}
+.searchBtn img{
+    width: 25px;
+}
+.searchArea{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:900px){
+    .productPage{
+        display: flex;
+        padding: 30px 50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .titleProductPage p {
+        display: none;
+    }
+    .goodsCard{
+        margin: 20px;
+    }
+}
